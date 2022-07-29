@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Saira+Stencil+One&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  max-width: 1356px;
+  overflow-x: hidden;
+}
+
+.container {
+  /* margin: auto 5%; */
+  width: 100vw;
+}
+
+/* navbar==== */
+nav h1 {
+  font-family: 'Saira Stencil One', cursive;
+  font-weight: 300;
+  font-size: 30px;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 90px 20px 90px;
+  backdrop-filter: blur(20px);
+  list-style-type: none;
+  background-color: #1E2225;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 40px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.home-section {
+  height: 100vh;
+  margin: 100px;
+}
+
+.home-section h4 {
+  font-size: 1.5rem;
+  color: orangered;
+  text-decoration: underline;
+}
+
+.home-section h1 {
+  font-size: 4rem;
+  line-height: 1;
+
+}
+
+.about-section {
+  margin-left: 400px;
+  font-family: 'poppins', sans-serif;
+  height: 100vh;
+  position: relative;
+  /* top: 400px;   */
+}
+
+.about-section p {
+  font-size: 2rem;
+  color: orangered;
+}
+
+.about-section h1 {
+  font-size: 3rem;
+}
+
+.about-section h4 {
+  font-style: 1rem;
+}
+
+.project-head h1 {
+  font-size: 4rem;
+}
+
+.project-head h2 {
+  font-size: 1.5rem;
+  color: orangered;
+}
+
+/* project body  */
+.project-section {
+  margin: 5%;
+  margin-bottom: 0px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  justify-content: center;
+  row-gap: 60px;
+  column-gap: 60px;
+  margin-top: 50px;
+}
+
+.card {
+  /* margin-top: 100px; */
+  box-shadow: 0 10px 15px #00000033;
+  transition: 0.2s;
+  border-radius: 20px;
+  padding: 20px 0;
+  text-align: center;
+  width: 600px;
+}
+
+.card-img img {
+  width: 500px;
+  height: 276px;
+}
+
+.card-body h3 {
+  font-weight: 900;
+  margin-top: 20px;
+  color: #000;
+  font-family: roboto;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-group {
+  font-family: 'Poppins', sans-serif;
+  padding: 12px 30px;
+  margin-top: 20px;
+  background-color: #30a7e7;
+  color: #ffffff;
+  border: 2px solid #30a7e7;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 25%;
+  text-decoration: none;
+}
+
+.btn {
+  margin: 70px;
+  background: none;
+  color: #000000;
+  border: 2px solid #000000;
+  width: 25%;
+}
+
+.btn:hover {
+  background-color: #30a7e7;
+  color: #ffffff;
+  border: 2px solid #30a7e7;
+  transition: color 200ms ease-in;
+  font-size: 14px;
+}
+
+.moreP #more {
+  margin: 100px auto;
+  margin-left: 500px;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #3930e7;
+  text-align: center;
+}
+
+.back a {
+
+  margin: 100px auto;
+
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #3930e7;
+  text-align: center;
+}
