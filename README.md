@@ -1,11 +1,7 @@
-# Dance Home Page [![Template Project](https://img.shields.io/badge/Template-Project-blue)](http://www.gnu.org/licenses/agpl-3.0) [![Template Project](https://img.shields.io/badge/Technologies%20-HTML%2FCSS-brightgreen)](http://www.gnu.org/licenses/agpl-3.0)
+# Personal portfolio website [![Template Project](https://img.shields.io/badge/Template-Project-blue)](http://www.gnu.org/licenses/agpl-3.0) [![Template Project](https://img.shields.io/badge/Technologies%20-HTML%2FCSS-brightgreen)](http://www.gnu.org/licenses/agpl-3.0)
 
 This is my personal portfolio website. I made it using HTML and CSS.
 This will help you to know about me and my projects. checkout live project link which is given at the end of this file.
-
-## Preview
-
-![demo](./portfolio.png)
 
 ## Author
 
