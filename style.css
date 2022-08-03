@@ -97,7 +97,7 @@ nav ul li a {
 }
 
 .project-head h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .project-head h2 {
@@ -112,8 +112,10 @@ nav ul li a {
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
   /* grid-template-rows: 1fr 1fr 1fr; */
   justify-content: center;
   row-gap: 60px;
@@ -127,7 +129,8 @@ nav ul li a {
   border-radius: 20px;
   padding: 20px 0;
   text-align: center;
-  width: 600px;
+  width: 500px;
+  /* background-color: #1E2225; */
 }
 
 .card:hover {
@@ -135,8 +138,8 @@ nav ul li a {
 }
 
 .card-img img {
-  width: 500px;
-  height: 276px;
+  width: 400px;
+  height: 221px;
 }
 
 .card-body h3 {
@@ -169,7 +172,7 @@ nav ul li a {
 }
 
 .btn {
-  margin: 70px;
+  margin: 20px;
   background: none;
   color: #000000;
   border: 2px solid #000000;
