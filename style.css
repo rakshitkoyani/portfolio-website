@@ -19,9 +19,9 @@ body {
 
 /* navbar==== */
 nav h1 {
-  font-family: 'Saira Stencil One', cursive;
+  font-family: 'Sacramento', cursive;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 40px;
   color: #fff;
 }
 
@@ -58,40 +58,23 @@ nav ul li a {
 }
 
 .home-section {
-  height: 100vh;
-  margin: 100px;
-}
-
-.home-section h4 {
-  font-size: 1.5rem;
-  color: orangered;
-  text-decoration: underline;
-}
-
-.home-section h1 {
-  font-size: 4rem;
-  line-height: 1;
-
-}
-
-.about-section {
   margin-left: 400px;
+  margin-top: 200px;
   font-family: 'poppins', sans-serif;
   height: 100vh;
   position: relative;
-  /* top: 400px;   */
 }
 
-.about-section p {
+.home-section p {
   font-size: 2rem;
   color: orangered;
 }
 
-.about-section h1 {
+.home-section h1 {
   font-size: 3rem;
 }
 
-.about-section h4 {
+.home-section h4 {
   font-style: 1rem;
   font-weight: normal;
 }
